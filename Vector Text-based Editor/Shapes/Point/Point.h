@@ -1,0 +1,8 @@
+//
+// Created by ratch on 22/03/2023.
+//
+
+#ifndef VECTOR_TEXT_BASED_EDITOR_POINT_H
+#define VECTOR_TEXT_BASED_EDITOR_POINT_H
+
+#endif //VECTOR_TEXT_BASED_EDITOR_POINT_H
