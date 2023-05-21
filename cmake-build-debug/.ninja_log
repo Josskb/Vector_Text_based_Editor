@@ -1,0 +1,12 @@
+# ninja log v5
+4	311	7054284614224428	CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj	623c467dc576307c
+4	103	7039780499988851	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Point.c.obj	b35a992b127f37de
+311	500	7054284616062741	Vector_Text_based_Editor.exe	b970d91b848ebed0
+36	132	7054241451065995	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Shape.c.obj	44ecb24f40916206
+21	111	7054241450832008	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Rectangle/Rectangle.c.obj	4ba71f3cabb42f61
+43	131	7054241451065995	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Polygon/Polygon.c.obj	e73da75ee2c6ee63
+31	117	7054241450915822	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Circle/Circle.c.obj	d681217b8c03e2c8
+26	110	7054241450832008	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Line/Line.c.obj	43a56bac217e362f
+15	98	7054241450696470	CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Square/Square.c.obj	17a9d44b6900662c
+29	241	7036204015896127	CMakeFiles/Vector_Text_based_Editor.dir/Window.c.obj	fdd259c9a8a5bac6
+9	92	7054241450653532	CMakeFiles/Vector_Text_based_Editor.dir/Main_menu.c.obj	1cb6bd9f094c91e6
