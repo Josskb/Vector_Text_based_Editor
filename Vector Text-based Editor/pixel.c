@@ -4,7 +4,6 @@
 
 #include <malloc.h>
 #include <minmax.h>
-#include <stdio.h>
 #include "pixel.h"
 
 Pixel* create_pixel(int px, int py){
@@ -125,12 +124,31 @@ void pixel_circle(Shape *shape, Pixel*** pixel, int *nb_pixels) {
     }
 }
 
-void pixel_square(Shape* square, Pixel*** pixel_tab, int* nb_pixels){
+void pixel_square(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
+    Square* square = (Square *) shape->ptrShape;
+    int px = square->p->pos_x;
+    int py = square->p->pos_y;
+    int length = square->Len;
 
+    pixel_line(create_line_shape(px, py, px, py + length), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px, py, px + length, py), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px + length, py, px + length, py + length), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px, py + length, px + length, py + length), pixel_tab, nb_pixels);
 }
 
 
-void pixel_rectangle(Shape* rectangle, Pixel*** pixel_tab, int* nb_pixels){
 
+
+void pixel_rectangle(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
+    Rectangle * rectangle = (Rectangle*) shape ->ptrShape;
+    int px = rectangle->p->pos_x;
+    int py = rectangle->p->pos_y;
+    int width = rectangle->wid;
+    int height = rectangle->len;
+    pixel_line(create_rectangle_shape(px, py, px + width, py), pixel_tab, nb_pixels);
+    pixel_line(create_rectangle_shape(px + width, py, px + width, py + height), pixel_tab, nb_pixels);
+    pixel_line(create_rectangle_shape(px + width, py + height, px, py + height), pixel_tab, nb_pixels);
+    pixel_line(create_rectangle_shape(px, py + height, px, py), pixel_tab, nb_pixels);
 }
+
 

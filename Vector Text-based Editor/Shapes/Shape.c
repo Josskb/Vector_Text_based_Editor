@@ -69,28 +69,80 @@ void print_shape(Shape *shape){
     if (shape->shape_type == POINT)
     {
         print_point(shape->ptrShape);
+
     }
     else if (shape->shape_type == LINE)
     {
         print_line(shape->ptrShape);
+
     }
     else if (shape->shape_type == CIRCLE)
     {
         print_circle(shape->ptrShape);
+
     }
     else if (shape->shape_type == RECTANGLE)
     {
         print_rectangle(shape->ptrShape);
+
     }
     else if (shape->shape_type == SQUARE)
     {
         print_square(shape->ptrShape);
+
+
     }
     else if (shape->shape_type == POLYGON)
     {
         print_polygon(shape->ptrShape);
+
     }
     printf("\n");
+
+}
+
+void delete_shape(Shape * shape){
+    printf("which is a");
+
+    if (shape->shape_type == POINT)
+    {
+        printf(" Point");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    else if (shape->shape_type == LINE)
+    {
+        printf(" Line");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    else if (shape->shape_type == CIRCLE)
+    {
+        printf(" Circle");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    else if (shape->shape_type == RECTANGLE)
+    {
+        printf(" Rectangle");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    else if (shape->shape_type == SQUARE)
+    {
+        printf(" Square");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    else if (shape->shape_type == POLYGON)
+    {
+        printf(" Polygon");
+        delete_point(shape->ptrShape);
+        id--;
+    }
+    printf(" is deleted !");
+    printf("\n");
+    printf("ID : %d",id);
 
 }
 
@@ -98,6 +150,7 @@ int get_next_id(){
     id ++;
     return id;
 }
+
 
 
 

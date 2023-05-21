@@ -122,7 +122,21 @@ int main( ) {
             }
         }
         else if (ans == 'C') {
+            int id_to_delete = 0;
             printf("C");
+            if (LS == 0) {
+                printf("There is no shape to delete");
+            }
+            else{
+                printf("Which shape do you want to delete ? (enter is ID) :");
+                scanf("%d",&id_to_delete);
+                printf("Your shape of ID: %d ",id_to_delete);
+                if (id_to_delete <= LS){
+                    delete_shape(L[id_to_delete-1]);
+                    *(L + id_to_delete - 1) = NULL;
+                    LS--;
+                }
+            }
         }
         else if (ans == 'D') {
             printf("D");
@@ -137,6 +151,7 @@ int main( ) {
         }
         ans = input();
     }
+
 }
 
 

@@ -37,11 +37,11 @@ void delete_area(Area* area){
     free(area);
 }
 
-void draw_area(Area* area){
+/*void draw_area(Area* area){
     for(int x = 0; x< area->nb_shape;x++){
         create_shape_to_pixel(area -> shapes[x]);
     }
-}
+}*/
 
 void print_area(Area* area){
     for (int x = 0; x < area->width;x++) {

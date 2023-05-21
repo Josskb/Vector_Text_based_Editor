@@ -2,7 +2,7 @@
 #ifndef VECTOR_TEXT_BASED_EDITOR_LINE_H
 #define VECTOR_TEXT_BASED_EDITOR_LINE_H
 
-#include "C:\Users\ratch\CLionProjects\Vector Text-based Editor\Shapes\Point.h"
+#include "..\Point.h"
 
 typedef struct line {
     Point *p1;

@@ -27,5 +27,4 @@ void delete_shape(Shape * shape);
 void print_shape(Shape * shape);
 int get_next_id();
 
-
 #endif //VECTOR_TEXT_BASED_EDITOR_SHAPE_H

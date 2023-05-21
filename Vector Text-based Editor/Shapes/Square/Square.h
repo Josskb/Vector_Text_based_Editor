@@ -2,7 +2,7 @@
 // Created by ratch on 18/04/2023.
 //
 
-#include "C:\Users\ratch\CLionProjects\Vector Text-based Editor\Shapes\Point.h"
+#include "..\Point.h"
 
 #ifndef VECTOR_TEXT_BASED_EDITOR_SQUARE_H
 #define VECTOR_TEXT_BASED_EDITOR_SQUARE_H

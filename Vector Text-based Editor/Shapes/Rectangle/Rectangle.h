@@ -1,4 +1,4 @@
-#include "C:\Users\ratch\CLionProjects\Vector Text-based Editor\Shapes\Point.h"
+#include "..\Point.h"
 
 #ifndef VECTOR_TEXT_BASED_EDITOR_RECTANGLE_H
 #define VECTOR_TEXT_BASED_EDITOR_RECTANGLE_H
