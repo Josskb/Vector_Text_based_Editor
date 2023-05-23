@@ -22,7 +22,7 @@ void pixel_point(Shape* shape, Pixel*** pixel_tab, int* nb_pixels)
 {
     Point* pt = (Point*) shape->ptrShape;
     *pixel_tab = (Pixel**) malloc (sizeof (Pixel*));
-    *pixel_tab[0] = create_pixel(pt->pos_x, pt->pos_y);
+    *pixel_tab[*nb_pixels] = create_pixel(pt->pos_x, pt->pos_y);
     *nb_pixels = 1;
 }
 
@@ -150,5 +150,11 @@ void pixel_rectangle(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
     pixel_line(create_rectangle_shape(px + width, py + height, px, py + height), pixel_tab, nb_pixels);
     pixel_line(create_rectangle_shape(px, py + height, px, py), pixel_tab, nb_pixels);
 }
+
+void pixel_polygon(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
+
+}
+
+
 
 

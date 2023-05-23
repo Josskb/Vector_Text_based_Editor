@@ -2,10 +2,12 @@
 #include "Shapes/Shape.h"
 #include <malloc.h>
 #include "main menu.h"
+#include "area.h"
 
 
 int main( ) {
     Shape **L = malloc(0*sizeof(Shape*));
+    Area* area = NULL;
     int LS = 0;
     printf("Please select an action:\n");
     printf("    A-Add a shape\n");
@@ -129,7 +131,7 @@ int main( ) {
             }
             else{
                 printf("Which shape do you want to delete ? (enter is ID) :");
-                scanf("%d",&id_to_delete);
+                scanf(" %c%*c",&id_to_delete);
                 printf("Your shape of ID: %d ",id_to_delete);
                 if (id_to_delete <= LS){
                     delete_shape(L[id_to_delete-1]);
@@ -139,8 +141,48 @@ int main( ) {
             }
         }
         else if (ans == 'D') {
-            printf("D");
-        }
+            printf("Your choice: D \n");
+            printf("Please select an action:\n");
+            printf("    1-Create an Area \n");
+            printf("    2-Add shapes to the area \n");
+            printf("    3-Display the area \n");
+            printf(" What do you want to do ? : ");
+            scanf("%c%*c",&ans);
+            switch(ans){
+                case ('1') :
+                    if (area == NULL){
+                        int x = 0;
+                        int y = 0;
+                        printf("Give the size of the area (x, y) :");
+                        scanf("%d %d",&x,&y);
+                        area = create_area(x,y);
+                    }
+                    else{
+                        printf("An area is already created");
+                    }
+                    break;
+                case ('2') :
+                    if (area == NULL){
+                        printf("You should create an area by typing 1 !");
+                    }
+                    else {
+                        for (int k = 0; k < LS; k++){
+                            add_shape_to_area(area, L[k]);
+                        }
+                    }
+                    break;
+                case '3' :
+                    if (area == NULL){
+                        printf("You should create an area by typing 1 !");
+                    }
+                    else {
+                        draw_area(area);
+                        print_area(area);
+                    }
+                    break;
+                }
+            }
+
         else if (ans == 'E'){
             printf("    A-Add a shape\n");
             printf("    B-Display the list of shapes\n");
