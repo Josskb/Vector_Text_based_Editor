@@ -113,31 +113,31 @@ void delete_shape(Shape * shape){
     else if (shape->shape_type == LINE)
     {
         printf(" Line");
-        delete_point(shape->ptrShape);
+        delete_line(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == CIRCLE)
     {
         printf(" Circle");
-        delete_point(shape->ptrShape);
+        delete_circle(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == RECTANGLE)
     {
         printf(" Rectangle");
-        delete_point(shape->ptrShape);
+        delete_rectangle(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == SQUARE)
     {
         printf(" Square");
-        delete_point(shape->ptrShape);
+        delete_square(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == POLYGON)
     {
         printf(" Polygon");
-        delete_point(shape->ptrShape);
+        delete_polygon(shape->ptrShape);
         id--;
     }
     printf(" is deleted !");

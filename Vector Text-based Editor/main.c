@@ -4,9 +4,10 @@
 #include "main menu.h"
 #include "area.h"
 
+#define MAX_SHAPE 5000
 
 int main( ) {
-    Shape **L = malloc(0*sizeof(Shape*));
+    Shape **L = malloc(MAX_SHAPE*sizeof(Shape*));
     Area* area = NULL;
     int LS = 0;
     printf("Please select an action:\n");
@@ -37,79 +38,122 @@ int main( ) {
                 printf("    Enter the coord of the point x1 y1 :");
                 scanf(" %d %d",&X1,&X2);
                 Shape *s = create_point_shape(X1,X2);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+                }
 
             }
             else if (ans =='2'){
                 int X1,X2,Y1,Y2;
                 printf("Enter the information of the points :\n") ;
                 printf("    Enter x1 y1 x2 y2:");
-                scanf("%d %d %d %d",&X1,&Y1,&X2,&Y2);
+                scanf(" %d %d %d %d",&X1,&Y1,&X2,&Y2);
                 printf("\n");
                 Shape *s = create_line_shape(X1,Y1,X2,Y2);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+                }
 
             }
             else if (ans =='3') {
                 int X1, Y1, length;
                 printf("Enter the information of the points :\n");
                 printf(">> Enter x1 y1:");
-                scanf("%d %d", &X1, &Y1);
+                scanf(" %d %d", &X1, &Y1);
                 printf("\n");
                 printf(">> Enter length of the square:");
-                scanf("%d", &length);
+                scanf(" %d", &length);
                 printf("\n");
                 Shape *s = create_square_shape(X1, Y1, length);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+                }
 
             }
             else if (ans == '4'){
                 int X1,Y1,width,height;
                 printf("Enter the information of the first points :\n") ;
                 printf("    Enter x1 y1:");
-                scanf("%d %d",&X1,&Y1);
+                scanf(" %d %d",&X1,&Y1);
                 printf("\n");
                 printf("    Enter width of the rectangle:");
-                scanf("%d",&width);
+                scanf(" %d",&width);
                 printf("\n");
                 printf("    Enter height of the rectangle:");
-                scanf("%d",&height);
+                scanf(" %d",&height);
                 printf("\n");
                 Shape *s = create_rectangle_shape(X1,Y1 , width, height);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+                }
 
             }
             else if (ans == '5') {
                 int X1, Y1, radius;
                 printf("Enter the information of the first points :\n");
                 printf("    Enter x1 y1:");
-                scanf("%d %d", &X1, &Y1);
+                scanf(" %d %d", &X1, &Y1);
                 printf("\n");
                 printf("    Enter the radius of the circle:");
-                scanf("%d", &radius);
+                scanf(" %d", &radius);
                 printf("\n");
                 Shape *s = create_circle_shape(X1, Y1, radius);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+                }
 
             }
             else if (ans == '6'){
                 int n;
                 printf("Enter the number of points :");
-                scanf("%d",&n);
+                scanf(" %d",&n);
                 Shape *s = create_polygon_shape(n);
-                L = realloc(L,(LS+1)*sizeof(Shape*));
-                L[LS] = s;
-                LS++;
+                Shape **new_L = realloc(L, (LS + 1) * sizeof(Shape*));
+                if (new_L == NULL) {
+                    // Gérer l'échec de l'allocation de mémoire
+                    printf("Erreur lors de l'allocation de mémoire.\n");
+                    // Autres actions à prendre en cas d'échec de l'allocation
+                } else {
+                    L = new_L;
+                    L[LS] = s;
+                    LS++;
+
+                }
             }
         }
         else if (ans == 'B') {
@@ -131,7 +175,7 @@ int main( ) {
             }
             else{
                 printf("Which shape do you want to delete ? (enter is ID) :");
-                scanf(" %c%*c",&id_to_delete);
+                scanf(" %d%*d",&id_to_delete);
                 printf("Your shape of ID: %d ",id_to_delete);
                 if (id_to_delete <= LS){
                     delete_shape(L[id_to_delete-1]);
@@ -147,42 +191,45 @@ int main( ) {
             printf("    2-Add shapes to the area \n");
             printf("    3-Display the area \n");
             printf(" What do you want to do ? : ");
-            scanf("%c%*c",&ans);
+            scanf(" %c%*c",&ans);
             switch(ans){
-                case ('1') :
+                case ('1') : {
                     if (area == NULL){
                         int x = 0;
                         int y = 0;
                         printf("Give the size of the area (x, y) :");
-                        scanf("%d %d",&x,&y);
+                        scanf(" %d %d",&x,&y);
                         area = create_area(x,y);
                     }
                     else{
-                        printf("An area is already created");
+                        printf("An area is already created\n");
                     }
                     break;
-                case ('2') :
+                }
+                case ('2') : {
                     if (area == NULL){
-                        printf("You should create an area by typing 1 !");
+                        printf("You should create an area by typing 1 !\n");
                     }
                     else {
                         for (int k = 0; k < LS; k++){
                             add_shape_to_area(area, L[k]);
                         }
+                        draw_area(area);
+                        printf("Shapes added !\n");
                     }
                     break;
-                case '3' :
+                }
+                case '3' : {
                     if (area == NULL){
-                        printf("You should create an area by typing 1 !");
+                        printf("You should create an area by typing 1 !\n");
                     }
                     else {
-                        draw_area(area);
                         print_area(area);
                     }
                     break;
                 }
+                }
             }
-
         else if (ans == 'E'){
             printf("    A-Add a shape\n");
             printf("    B-Display the list of shapes\n");
@@ -192,6 +239,7 @@ int main( ) {
             printf("    F-Stop\n");
         }
         ans = input();
+        printf("Nombres de formes : %d ", LS);
     }
 
 }

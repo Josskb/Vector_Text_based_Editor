@@ -18,11 +18,19 @@ void delete_pixel(Pixel* pixel){
     free(pixel);
 }
 
+void delete_pixel_shape(Pixel** pixel, int nb_pixels) {
+    for (int i = 0; i<nb_pixels; i++) {
+        free(pixel[i]);
+    }
+    free(pixel);
+}
+
+
 void pixel_point(Shape* shape, Pixel*** pixel_tab, int* nb_pixels)
 {
     Point* pt = (Point*) shape->ptrShape;
     *pixel_tab = (Pixel**) malloc (sizeof (Pixel*));
-    *pixel_tab[*nb_pixels] = create_pixel(pt->pos_x, pt->pos_y);
+    (*pixel_tab)[0] = create_pixel(pt->pos_x, pt->pos_y);
     *nb_pixels = 1;
 }
 
@@ -41,15 +49,13 @@ void pixel_line(Shape* shape, Pixel*** pixel, int* nb_pixels) {
     int dmin = min(dx, abs(dy));
     int dmax = max(dx, abs(dy));
 
-    int nb_segs;
-    nb_segs = dmin + 1;
+    int nb_segs = dmin + 1;
     int taille_base_segs = (dmax + 1) / (dmin + 1);
     int segments[nb_segs];
     for (int i = 0; i < nb_segs; i++) {
         segments[i] = taille_base_segs;
     }
-    int restants;
-    restants = (dmax + 1) % (dmin + 1);
+    int restants = (dmax + 1) % (dmin + 1);
 
     int *cumuls = (int *) malloc(nb_segs * sizeof(int));
     cumuls[0] = 0;
@@ -57,37 +63,29 @@ void pixel_line(Shape* shape, Pixel*** pixel, int* nb_pixels) {
         cumuls[i] = ((i + 1) * restants) % (dmin + 1) < (i * restants) % (dmin + 1);
         segments[i] = segments[i] + cumuls[i];
     }
-    int pixel_index = 1;
+
+    *nb_pixels = 0;
     for (int i = 0; i < nb_segs; i++) {
         for (int j = 0; j < segments[i]; j++) {
+            (*pixel)[*nb_pixels] = create_pixel(p1_x, p1_y);
+            (*nb_pixels)++;
+
             if (dx >= 0) {
                 if (dy > dx) {
-                    *pixel[pixel_index] = create_pixel(p1_x, p1_y);
-                    dx--;
                     p1_y++;
                 } else {
-
-                    *pixel[pixel_index] = create_pixel(dy, abs(dx));
-                    dy--;
                     p1_x--;
                 }
-            }
-            else {
+            } else {
                 if (dy > abs(dx)) {
-
-                    *pixel[pixel_index] = create_pixel(dx, dy);
-                    dy++;
                     p1_x--;
-                }
-                else {
-                    *pixel[pixel_index] = create_pixel(dx, dy);
-                    dx--;
+                } else {
                     p1_y++;
                 }
             }
-            pixel_index++;
         }
     }
+
 }
 
 void pixel_circle(Shape *shape, Pixel*** pixel, int *nb_pixels) {
@@ -145,14 +143,41 @@ void pixel_rectangle(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
     int py = rectangle->p->pos_y;
     int width = rectangle->wid;
     int height = rectangle->len;
-    pixel_line(create_rectangle_shape(px, py, px + width, py), pixel_tab, nb_pixels);
-    pixel_line(create_rectangle_shape(px + width, py, px + width, py + height), pixel_tab, nb_pixels);
-    pixel_line(create_rectangle_shape(px + width, py + height, px, py + height), pixel_tab, nb_pixels);
-    pixel_line(create_rectangle_shape(px, py + height, px, py), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px, py, px + width, py), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px + width, py, px + width, py + height), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px + width, py + height, px, py + height), pixel_tab, nb_pixels);
+    pixel_line(create_line_shape(px, py + height, px, py), pixel_tab, nb_pixels);
 }
 
 void pixel_polygon(Shape* shape, Pixel*** pixel_tab, int* nb_pixels){
+    Polygon* polygon = (Polygon*) shape->ptrShape;
+    int num_points = polygon->n;
+    Point** points = polygon->points;
 
+    // Calcul du nombre total de segments nécessaires
+    int num_segments = 0;
+    for (int i = 0; i < num_points; i++) {
+        int j = (i + 1) % num_points;
+        Point* p1 = points[i];
+        Point* p2 = points[j];
+        int dx = abs(p2->pos_x - p1->pos_x);
+        int dy = abs(p2->pos_y - p1->pos_y);
+        num_segments += (dx > dy) ? dx : dy;
+    }
+
+    // Allocation de mémoire pour les segments de pixels
+    *pixel_tab = (Pixel**) malloc(num_segments * sizeof(Pixel*));
+    *nb_pixels = 0;
+
+    // Dessiner les segments de pixels pour chaque côté du polygone
+    for (int i = 0; i < num_points; i++) {
+        int j = (i + 1) % num_points;
+        Point* p1 = points[i];
+        Point* p2 = points[j];
+
+        // Utiliser l'algorithme de tracé de ligne pour chaque côté
+        pixel_line(create_line_shape(p1->pos_x, p1->pos_y, p2->pos_x, p2->pos_y), pixel_tab, nb_pixels);
+    }
 }
 
 

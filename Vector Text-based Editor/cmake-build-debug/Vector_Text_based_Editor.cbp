@@ -8,150 +8,150 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Vector_Text_based_Editor">
-				<Option output="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Vector_Text_based_Editor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
+				<Option output="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Vector_Text_based_Editor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vector_Text_based_Editor"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vector_Text_based_Editor"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Vector_Text_based_Editor/fast">
-				<Option output="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Vector_Text_based_Editor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
+				<Option output="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Vector_Text_based_Editor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vector_Text_based_Editor/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vector_Text_based_Editor/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Main menu.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Main menu.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Main menu.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Main menu.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Circle/Circle.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Circle/Circle.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Circle/Circle.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Circle/Circle.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Line/Line.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Line/Line.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Line/Line.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Line/Line.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point/Point.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point/Point.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point/Point.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Point/Point.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Polygon/Polygon.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Polygon/Polygon.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Polygon/Polygon.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Polygon/Polygon.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Rectangle/Rectangle.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Rectangle/Rectangle.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Rectangle/Rectangle.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Rectangle/Rectangle.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Shape.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Shape.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Shape.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Shape.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Square/Square.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Square/Square.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Square/Square.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Square/Square.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Window.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Window.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main menu.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main menu.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/pixel.c">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/pixel.c">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/pixel.h">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/pixel.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
-		<Unit filename="C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/CMakeLists.txt">
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

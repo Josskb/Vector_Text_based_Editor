@@ -20,6 +20,7 @@ void pixel_circle(Shape* shape, Pixel*** pixel_tab, int*nb_pixels);
 void pixel_square(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
 void pixel_rectangle(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
 void pixel_polygon(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
+void delete_pixel_shape(Pixel** pixel, int nb_pixels);
 
 
 #endif //VECTOR_TEXT_BASED_EDITOR_PIXEL_H

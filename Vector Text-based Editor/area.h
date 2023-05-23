@@ -9,7 +9,7 @@
 #include "stdlib.h"
 #include "pixel.h"
 
-#define SHAPE_MAX 100 // Maximum number of shapes
+#define SHAPE_MAX 1000 // Maximum number of shapes
 #define BOOL int
 
 struct area {
@@ -28,7 +28,7 @@ void erase_area(Area* area);
 void delete_area(Area* area);
 void draw_area(Area* area);
 void print_area(Area* area);
-void create_shape_to_pixel(Shape* shape, int* nb_pixels);
+void create_shape_to_pixel(Shape* shape, int* nb_pixels, Pixel*** pixel);
 
 
 #endif //VECTOR_TEXT_BASED_EDITOR_AREA_H
