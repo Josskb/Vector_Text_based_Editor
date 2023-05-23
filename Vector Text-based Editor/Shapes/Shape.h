@@ -22,7 +22,7 @@ Shape *create_line_shape(int px1, int py1, int px2, int py2);
 Shape *create_square_shape(int px, int py, int length);
 Shape *create_rectangle_shape(int px, int py, int width, int height);
 Shape *create_circle_shape(int px, int py, int radius);
-Shape *create_polygon_shape(int n);
+Shape *create_polygon_shape(int list_point[], int n);
 void delete_shape(Shape * shape);
 void print_shape(Shape * shape);
 int get_next_id();

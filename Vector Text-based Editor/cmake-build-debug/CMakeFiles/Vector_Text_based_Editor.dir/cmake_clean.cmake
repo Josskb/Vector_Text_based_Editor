@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Vector_Text_based_Editor.dir/Window.c.obj.d"
   "CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj"
   "CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj.d"
+  "CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj"
+  "CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj.d"
   "CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj"
   "CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj.d"
   "CMakeFiles/Vector_Text_based_Editor.dir/pixel.c.obj"

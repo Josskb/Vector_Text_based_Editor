@@ -392,6 +392,30 @@ area.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/area.c.s
 .PHONY : area.c.s
 
+commande.obj: commande.c.obj
+.PHONY : commande.obj
+
+# target to build an object file
+commande.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj
+.PHONY : commande.c.obj
+
+commande.i: commande.c.i
+.PHONY : commande.i
+
+# target to preprocess a source file
+commande.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/commande.c.i
+.PHONY : commande.c.i
+
+commande.s: commande.c.s
+.PHONY : commande.s
+
+# target to generate assembly for a file
+commande.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/commande.c.s
+.PHONY : commande.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -482,6 +506,9 @@ help:
 	@echo ... area.obj
 	@echo ... area.i
 	@echo ... area.s
+	@echo ... commande.obj
+	@echo ... commande.i
+	@echo ... commande.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

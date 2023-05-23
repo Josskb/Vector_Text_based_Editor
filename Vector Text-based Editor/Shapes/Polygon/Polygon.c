@@ -4,7 +4,12 @@
 
 
 Polygon *create_polygon(int n){
-    Polygon* poly = malloc(sizeof(Polygon));
+    Polygon *p = malloc(sizeof(Polygon));
+    p->n = n;
+    p->points = malloc(n* sizeof(Point*));
+    return p;
+}
+    /*Polygon* poly = malloc(sizeof(Polygon));
     int X,Y;
     printf("Enter the 1st coordinates X1 Y1 :");
     scanf(" %d %d",&X,&Y);
@@ -25,8 +30,8 @@ Polygon *create_polygon(int n){
         printf("It works\n");
         return poly;
     }
-    else return 0;
-}
+    else return 0;*/
+
 
 void delete_polygon(Polygon * polygon){
     free(polygon);

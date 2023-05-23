@@ -4,6 +4,7 @@
 
 int id = 0;
 
+//crée une forme vide
 Shape *create_empty_shape(SHAPE_TYPE shape_type)
 {
     Shape *shp = (Shape *) malloc(sizeof(Shape));
@@ -13,6 +14,7 @@ Shape *create_empty_shape(SHAPE_TYPE shape_type)
     return shp;
 }
 
+//crée une forme point
 Shape *create_point_shape(int px, int py)
 {
     Shape *shp = create_empty_shape(POINT);
@@ -21,6 +23,7 @@ Shape *create_point_shape(int px, int py)
     return shp;
 }
 
+//crée une forme ligne
 Shape *create_line_shape(int px1, int py1, int px2, int py2) {
     Shape *shp = create_empty_shape(LINE);
     Point *p1 = create_point(px1, py1);
@@ -30,6 +33,7 @@ Shape *create_line_shape(int px1, int py1, int px2, int py2) {
     return shp;
 }
 
+//crée une forme carrée
 Shape *create_square_shape(int px, int py, int length) {
     Shape *shp = create_empty_shape(SQUARE);
     Point *p = create_point(px, py);
@@ -38,6 +42,7 @@ Shape *create_square_shape(int px, int py, int length) {
     return shp;
 }
 
+//crée une forme rectangle
 Shape *create_rectangle_shape(int px, int py, int width, int height){
     Shape *shp = create_empty_shape(RECTANGLE);
     Point *p = create_point(px, py);
@@ -46,6 +51,7 @@ Shape *create_rectangle_shape(int px, int py, int width, int height){
     return shp;
 }
 
+//crée une forme cercle
 Shape *create_circle_shape(int px, int py, int radius){
     Shape *shp = create_empty_shape(CIRCLE);
     Point *p = create_point(px, py);
@@ -54,16 +60,23 @@ Shape *create_circle_shape(int px, int py, int radius){
     return shp;
 }
 
-Shape *create_polygon_shape(int n){
-    Shape *shp = create_empty_shape(POLYGON);
-    if (n%2==0){
-        Polygon *poly = create_polygon(n);
-        shp->ptrShape = poly;
-        return shp;
+//crée une forme polygone
+Shape *create_polygon_shape(int list_point[], int n){
+    if (n % 2 != 0) {
+        printf("Error: The number of points must be even.\n");
+        return NULL;
     }
-    else return 0;
+    Shape *shp = create_empty_shape(POLYGON);
+    Polygon *poly = create_polygon(n/2);
+    for (int i = 0; i < n; i += 2) {
+        Point *p = create_point(list_point[i], list_point[i+1]);
+        poly->points[i/2] = p;
+    }
+    shp->ptrShape = poly;
+    return shp;
 }
 
+//fonctions qui regroupe toutes les fonctions print de formes
 void print_shape(Shape *shape){
     printf("ID : %d, ",shape->id);
     if (shape->shape_type == POINT)
@@ -101,51 +114,49 @@ void print_shape(Shape *shape){
 
 }
 
+//fonctions qui regroupe toutes les fonctions delete de formes
 void delete_shape(Shape * shape){
-    printf("which is a");
 
     if (shape->shape_type == POINT)
     {
-        printf(" Point");
+
         delete_point(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == LINE)
     {
-        printf(" Line");
+
         delete_line(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == CIRCLE)
     {
-        printf(" Circle");
+
         delete_circle(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == RECTANGLE)
     {
-        printf(" Rectangle");
+
         delete_rectangle(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == SQUARE)
     {
-        printf(" Square");
+
         delete_square(shape->ptrShape);
         id--;
     }
     else if (shape->shape_type == POLYGON)
     {
-        printf(" Polygon");
+
         delete_polygon(shape->ptrShape);
         id--;
     }
-    printf(" is deleted !");
-    printf("\n");
-    printf("ID : %d",id);
 
 }
 
+//récupére l'ID d'après
 int get_next_id(){
     id ++;
     return id;

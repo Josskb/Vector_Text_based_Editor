@@ -36,4 +36,5 @@ CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj: \
  C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\main\ menu.h \
  C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\Window.c \
  C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\area.h \
- C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\pixel.h
+ C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\pixel.h \
+ C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector\ Text-based\ Editor\commande.h

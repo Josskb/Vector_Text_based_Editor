@@ -3,13 +3,25 @@
 #include <malloc.h>
 #include "main menu.h"
 #include "area.h"
+#include "commande.h"
 
-#define MAX_SHAPE 5000
+
 
 int main( ) {
-    Shape **L = malloc(MAX_SHAPE*sizeof(Shape*));
-    Area* area = NULL;
-    int LS = 0;
+    //choisir la taille de la zone en fonction de ce que l'on veut
+    Area* area = create_area(30, 30);
+    Command *commande = create_commande();
+    printf("->");
+    int ans = read_exec_command(commande, area); //lecture de l'entrée de l'utilisateur
+    while (ans){
+        printf("->");
+        ans = read_exec_command(commande, area);
+    }
+    return 0;
+}
+
+
+    /*int LS = 0;
     printf("Please select an action:\n");
     printf("    A-Add a shape\n");
     printf("    B-Display the list of shapes\n");
@@ -243,5 +255,5 @@ int main( ) {
     }
 
 }
-
+*/
 

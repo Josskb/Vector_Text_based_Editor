@@ -139,6 +139,12 @@
 		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/commande.c">
+			<Option target="Vector_Text_based_Editor"/>
+		</Unit>
+		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/commande.h">
+			<Option target="Vector_Text_based_Editor"/>
+		</Unit>
 		<Unit filename="C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main menu.h">
 			<Option target="Vector_Text_based_Editor"/>
 		</Unit>

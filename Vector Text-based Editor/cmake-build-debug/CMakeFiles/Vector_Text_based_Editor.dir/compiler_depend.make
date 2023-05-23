@@ -249,6 +249,9 @@ CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj: C:/Users/Jojo/CLionProjects/
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/area.h \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Shape.h \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
@@ -267,11 +270,50 @@ CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj: C:/Users/Jojo/CLionProjects/
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/pixel.h
+
+CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj: C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/commande.c \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/commande.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/area.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Shape.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Square/Square.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Rectangle/Rectangle.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Polygon/Polygon.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Line/Line.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Circle/Circle.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Shapes/Point.h \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/pixel.h
 
 CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj: C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/main.c \
@@ -311,7 +353,8 @@ CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj: C:/Users/Jojo/CLionProjects/
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/main\ menu.h \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/Window.c \
   C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/area.h \
-  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/pixel.h
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/pixel.h \
+  C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/commande.h
 
 CMakeFiles/Vector_Text_based_Editor.dir/pixel.c.obj: C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/pixel.c \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
@@ -432,6 +475,14 @@ C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/
 
 C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/area.c:
 
+C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/string.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
 C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/area.h:
+
+C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/commande.c:
+
+C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector\ Text-based\ Editor/commande.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.3/bin/mingw/x86_64-w64-mingw32/include/minmax.h:

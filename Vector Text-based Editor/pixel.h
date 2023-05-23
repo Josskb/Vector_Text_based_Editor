@@ -14,12 +14,12 @@ typedef struct pixel Pixel;
 
 Pixel* create_pixel(int px, int py);
 void delete_pixel(Pixel* pixel);
-void pixel_point(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
-void pixel_line(Shape* line, Pixel*** pixel_tab, int* nb_pixels);
-void pixel_circle(Shape* shape, Pixel*** pixel_tab, int*nb_pixels);
-void pixel_square(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
-void pixel_rectangle(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
-void pixel_polygon(Shape* shape, Pixel*** pixel_tab, int* nb_pixels);
+Pixel **pixel_point(Shape *shape, int *nb_pixels);
+Pixel **pixel_line(Shape *shape, int *nb_pixels);
+Pixel **pixel_circle(Shape *shape,int *nb_pixels);
+Pixel **pixel_square(Shape *shape, int *nb_pixels);
+Pixel **pixel_rectangle(Shape *shape, int* nb_pixels);
+Pixel **pixel_polygon(Shape *shp, int* nb_pixels);
 void delete_pixel_shape(Pixel** pixel, int nb_pixels);
 
 

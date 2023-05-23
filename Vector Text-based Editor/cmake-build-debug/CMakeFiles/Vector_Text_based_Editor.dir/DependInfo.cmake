@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Shapes/Square/Square.c" "CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Square/Square.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/Shapes/Square/Square.c.obj.d"
   "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/Window.c" "CMakeFiles/Vector_Text_based_Editor.dir/Window.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/Window.c.obj.d"
   "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/area.c" "CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/area.c.obj.d"
+  "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/commande.c" "CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/commande.c.obj.d"
   "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/main.c" "CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/main.c.obj.d"
   "C:/Users/Jojo/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/pixel.c" "CMakeFiles/Vector_Text_based_Editor.dir/pixel.c.obj" "gcc" "CMakeFiles/Vector_Text_based_Editor.dir/pixel.c.obj.d"
   )

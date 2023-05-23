@@ -80,12 +80,12 @@ clean: CMakeFiles/Vector_Text_based_Editor.dir/clean
 CMakeFiles/Vector_Text_based_Editor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vector_Text_based_Editor.dir\build.make CMakeFiles/Vector_Text_based_Editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector Text-based Editor\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target Vector_Text_based_Editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector Text-based Editor\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Vector_Text_based_Editor"
 .PHONY : CMakeFiles/Vector_Text_based_Editor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vector_Text_based_Editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector Text-based Editor\cmake-build-debug\CMakeFiles" 14
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector Text-based Editor\cmake-build-debug\CMakeFiles" 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Vector_Text_based_Editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jojo\CLionProjects\Vector_Text_based_Editor\Vector Text-based Editor\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Vector_Text_based_Editor.dir/rule
