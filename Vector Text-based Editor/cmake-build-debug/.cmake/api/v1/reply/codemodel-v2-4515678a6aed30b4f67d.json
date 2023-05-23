@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Vector_Text_based_Editor",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Vector_Text_based_Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vector_Text_based_Editor-Debug-abc0ee865d5cde70860d.json",
+					"name" : "Vector_Text_based_Editor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug",
+		"source" : "C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

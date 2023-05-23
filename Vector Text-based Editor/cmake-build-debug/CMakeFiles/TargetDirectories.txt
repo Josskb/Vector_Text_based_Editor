@@ -1,3 +1,3 @@
-E:/Users/Jojo/Documents/GitHub/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/Vector_Text_based_Editor.dir
-E:/Users/Jojo/Documents/GitHub/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Users/Jojo/Documents/GitHub/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/Vector_Text_based_Editor.dir
+C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ratch/CLionProjects/Vector_Text_based_Editor/Vector Text-based Editor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
